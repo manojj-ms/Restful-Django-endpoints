@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E303" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.urls.admin" />
+          <option value="todo_app.serializers.serializers.rest_framework" />
+          <option value="todo_app.endpoints.list.rest_framework" />
+          <option value="todo_app.endpoints.list.status" />
+          <option value="todo_app.endpoints.list.JSONRenderer" />
+          <option value="todo_app.endpoints.list.api_view" />
+          <option value="todo_app.endpoints.list.renderer_classes" />
+          <option value="todo_app.models.Tutorial.DoesNotExist" />
+          <option value="todo_app.models.Tutorial.objects" />
+          <option value="todo_server.settings.os" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
